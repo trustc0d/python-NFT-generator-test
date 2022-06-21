@@ -2,7 +2,7 @@
 from generator import Generator
 
 
-def gen():
+def main():
     # first, create a new instance of our generator class
     generator = Generator("./images")
     # then, call the generate nft function, takes in a number
@@ -13,4 +13,4 @@ def gen():
 # if the user ran this file directly, run the generate function
 # like in java when it runs main, this is the main function
 if __name__ == "__main__":
-    gen()
+    main()
