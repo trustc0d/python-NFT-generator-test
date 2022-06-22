@@ -116,6 +116,6 @@ class Generator:
         # create a padded index (0000i), which will allow help avoid index
         index = str(i).zfill(5)
         # our image name is nft_(index).png
-        img_name = f"nft_{i}.png"
+        img_name = f"nft_{index}.png"
         # save our image to the path of self.output_path/img_name
         image.save(os.path.join(self.output_path, img_name))
